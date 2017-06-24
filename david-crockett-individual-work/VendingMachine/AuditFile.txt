@@ -1,0 +1,12 @@
+2017-06-02T16:12:56.061 : validateMoney: VendingMachineDao.InsufficientFundsException50Item: Keyblade
+2017-06-02T16:12:56.175 : validateMoney: VendingMachineDao.InsufficientFundsException50Item: Keyblade
+2017-06-02T16:17:58.271 : dispenseItem: VendingMachineDao.NoItemInventoryExceptionTiger
+2017-06-02T16:17:58.412 : dispenseItem: VendingMachineDao.NoItemInventoryExceptionTiger
+2017-06-05T08:25:13.210 : validateMoney: VendingMachineDao.InsufficientFundsException45 Item: Cattywhompus
+2017-06-05T08:25:13.362 : validateMoney: VendingMachineDao.InsufficientFundsException45 Item: Cattywhompus
+2017-06-05T09:17:21.807 : validateMoney: VendingMachineDao.InsufficientFundsException50 Item: Cattywhompus
+2017-06-05T09:17:21.902 : validateMoney: VendingMachineDao.InsufficientFundsException50 Item: Cattywhompus
+2017-06-05T09:17:34.897 : validateMoney: VendingMachineDao.InsufficientFundsException50 Item: Cattywhompus
+2017-06-05T09:17:46.107 : dispenseItem: VendingMachineDao.NoItemInventoryExceptionTrex
+2017-06-05T09:27:47.602 : validateMoney: VendingMachineDao.InsufficientFundsException 50 Item: Titanic
+2017-06-05T13:02:14.752 : validateMoney: VendingMachineDao.InsufficientFundsException 100 Item: Keyblade

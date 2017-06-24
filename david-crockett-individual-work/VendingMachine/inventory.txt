@@ -1,0 +1,5 @@
+Excalibur::0::1
+Keyblade::150::6
+Cattywhompus::78::7
+Titanic::300::3
+Lightsaber::250::2

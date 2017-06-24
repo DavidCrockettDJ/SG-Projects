@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vending Machine</title>
+
+        <link href="css/bootstrap.css"
+              rel="stylesheet">
+
+        <style type="text/css">
+
+            #grid{
+                width: 960px;
+                margin-top: 50px;
+                margin-right: 200px;
+            }
+
+            .gridItems{
+                width: 300px;
+                float: left;
+            }
+
+            #rightCol {
+              float: right;
+              width: 200px;
+              margin-right: -200px;
+            }
+
+          </style>
+
+      </head>
+      <body>
+          <div class="container">
+              <h1 style="text-align: center;">Vending Machine</h1>
+              <hr/>
+              <ul class="list-group" id="errorMessages"></ul>
+
+              <div id="grid">
+
+                <div id="rightCol">
+                  <form class="form-horizontal" role="form" id="enter-form">
+                    <div class="form-group" style="text-align: center;">
+                        <label for="enterMoney">
+                            Total $ In
+                        </label>
+                            <input type="text"
+                                    class="form-control"
+                                    id="enterMoney"
+                                    readonly/>
+                    </div>
+                        <div class="form-group" style="text-align: center;" style="display: inline-block;">
+                            <input type="hidden" id="addDollar">
+                              <button type="button"
+                                      class="btn btn-default"
+                                      id="add-dollar-button"
+                                      style="width: 100px;"/>
+                                Add Dollar
+                              </button>
+                              <input type="hidden" id="addQuarter">
+                                <button type="button"
+                                        class="btn btn-default"
+                                        style="width: 100px;"
+                                        id="add-quarter-button"/>
+                                  Add Quarter
+                                </button>
+                    </div>
+                    <div class="form-group" style="text-align: center;" style="display: inline-block;">
+                        <input type="hidden" id="addDime">
+                          <button type="button"
+                                  class="btn btn-default"
+                                  style="width: 100px;"
+                                  id="add-dime-button"/>
+                            Add Dime
+                          </button>
+                          <input type="hidden" id="addNickel">
+                            <button type="button"
+                                    class="btn btn-default"
+                                    style="width: 100px;"
+                                    id="add-nickel-button"/>
+                              Add Nickel
+                            </button>
+                </div>
+                <hr/>
+                <div class="form-group" style="text-align: center;">
+                    <label for="enterMessage">
+                        Messages
+                    </label>
+                        <input type="text"
+                                class="form-control"
+                                id="enterMessage"
+                                style="height: 50px; width: 250px"
+
+                                readonly/>
+                </div>
+
+              <form class="form-horizontal" role="form" id="enter-item">
+                <div class="form-group" style="text-align: center;">
+                    <label for="enterItem">
+                        Item:
+                    </label>
+                        <input type="text"
+                                class="form-context"
+                                style="width: 100px;"
+                                id="enterItem"
+                                readonly/>
+                </div>
+                <div class="form-group" style="text-align: center;">
+                <input type="hidden" id="makePurchase">
+                  <button type="button"
+                          class="btn btn-default"
+                          style="width: 150px;"
+                          id="make-purchase-button"
+                          onclick=""/>
+                    Make Purchase
+                  </button>
+              </div>
+              <hr/>
+            </form>
+            <form class="form-vertical" role="form" id="enter-form">
+              <div class="form-group" style="text-align: center;">
+                  <label for="enterChange">
+                      Change
+                  </label>
+                      <input type="text"
+                              class="form-control"
+                              id="enterChange"
+                              style="height: 50px;"
+                              readonly/>
+              </div>
+              <div class="form-group" style="text-align: center;">
+              <input type="hidden" id="getChange">
+                <button type="button"
+                        class="btn btn-default"
+                        style="width: 150px;"
+                        id="get-change-button"
+                        onclick=""/>
+                  Change Return
+                </button>
+            </div>
+            </form>
+
+          </div>
+
+
+            </div>
+
+          </div>
+
+          <script src="js/jquery-2.2.4.min.js"></script>
+          <script src="js/bootstrap.js"></script>
+          <script src="js/home.js"></script>
+      </body>
+  </html>
