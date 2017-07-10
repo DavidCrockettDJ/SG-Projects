@@ -1,0 +1,9 @@
+1::Lightsaber::12.50::5
+2::KeyBlade::15.00::3
+3::Scythe::9.00::7
+4::Cutlass::7.00::12
+5::Broadsword::8.00::10
+6::Battleaxe::10.25::6
+7::Mace::7.55::9
+8::Shield::8.25::4
+9::PlasmaCutter::17.85::0
