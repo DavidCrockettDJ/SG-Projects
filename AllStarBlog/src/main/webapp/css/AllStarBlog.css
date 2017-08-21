@@ -1,0 +1,109 @@
+
+            #loginInfo{
+                color:white;
+            }
+            #buttons{
+                display:inline-block;
+            }
+            #authorDate{
+                font-style: italic;
+            }
+            h2 { 
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%; 
+                margin-left: 5%;
+            }
+            #staticButton {
+                background:none!important;
+                border:none; 
+                padding:0!important;
+
+                font-family:arial,sans-serif; 
+                color:black;
+                cursor:pointer;
+            }
+            #staticButton:hover{
+                text-decoration:underline;
+            }
+            
+            #blogImage{
+                height:100%;
+                margin: 0px;
+                padding:0px;
+            }
+            .blogPost{
+                height:250px;
+                margin:0px;
+                padding: 0px;
+                overflow:hidden;
+
+            }
+            h2 span { 
+                color: white; 
+                font: bold 16px Helvetica, Sans-Serif; 
+                letter-spacing: -1px;  
+                background: rgb(0, 0, 0); /* fallback color */
+                background: rgba(0, 0, 0, 0.7);
+                padding: 10px; 
+            }
+
+            #blogImage:hover { background-color: #00000; opacity: 0.8; }
+            a{
+                color:white
+            }
+            body {
+                background-position: center;
+
+
+            }
+
+            #background {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-image: url('http://2.bp.blogspot.com/-HUm0hhXX8Vw/UAUgCLWziZI/AAAAAAAABPA/QgXnmpYBB8A/s1600/fall+out+3+101+dog+wallpaper+background+bethesda+game+stuido+action.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100%;
+                opacity: 0.5;
+                filter:alpha(opacity=80);
+            }
+            
+            #footer{
+                text-align: center;
+                margin-top:15px; 
+            }
+
+        
+            #postDisplayContainer{
+                box-shadow: 0px 3px 10px;
+                padding:2%;
+                background-color:white;
+            }
+            #loginDiv{
+                margin-top:100px;
+                box-shadow: 0px 3px 10px;
+                padding:2%;
+                background-color:white;
+            }
+            #postTitle{
+                font: bold 30px Helvetica, Sans-Serif; 
+                letter-spacing: -1px;  
+            }
+            #postDescription{
+                margin-top: 10px; 
+            }
+
+            #postFooter{
+                margin-top: 10px; 
+            }
+            #postTags{
+                color: grey;
+                font-size: 16px;
+            }
+            
+
+
+
